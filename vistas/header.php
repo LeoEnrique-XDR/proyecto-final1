@@ -16,12 +16,12 @@
                         <a href="/" class="nav-link">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="perfil.html" class="nav-link">Perfil</a>
+                        <a href="#" class="nav-link">Perfil</a>
                     </li>
     
     
                     <li class="nav-item">
-                        <!-- <a href="vistas/modulos/admin.php" class="nav-link">Usuarios</a> -->
+                        <a href="#" class="nav-link">Usuarios</a>
                     </li>
                 </ul>
     
@@ -38,7 +38,7 @@
     
     
                 <div class="image">
-                    <img src="vistas/dist/images/user.png" class="img-circle" width="30" alt="Imagen de usuario">
+                    <img src="<?= BASE_URL ?>vistas/dist/images/user.png" class="img-circle" width="30" alt="Imagen de usuario">
                 </div>
                 Luis Choque
                 <a href="salir" class="btn btn-outline-danger ml-1 btn-sm">

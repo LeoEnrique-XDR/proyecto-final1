@@ -1,13 +1,13 @@
 <?php
-class Pregunta
+class Respuesta
 {
-    static public function listarPreguntas($tabla, $columna, $valor)
+    static public function listarRespuestaPregunta($tabla, $columna, $valor)
     {
-        $respuesta = PreguntaModel::listar($tabla, $columna, $valor);
+        $respuesta = RespuestaModel::listar($tabla, $columna, $valor);
         return $respuesta;
     }
 
-    public function guardarPregunta()
+    /*public function guardarPregunta()
     {
         if (isset($_POST['titulo']) && isset($_POST['descripcion'])) {
             $titulo = trim($_POST['titulo']);
@@ -55,7 +55,7 @@ class Pregunta
     static private function validarImagen($tipo)
     {
         return $tipo === 'image/png' || $tipo === 'image/jpeg' || $tipo === 'image/jpg';
-    }
+    }*/
 }
 
 ?>

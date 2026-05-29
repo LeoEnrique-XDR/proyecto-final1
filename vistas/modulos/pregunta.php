@@ -51,7 +51,10 @@
                                     Guardar
                                 </button>
                             </div>
-
+                            <?php
+                                $pregunta=new Pregunta();
+                                $pregunta->guardarPregunta();
+                            ?>
                         </form>
                     </div>
                 </div>
