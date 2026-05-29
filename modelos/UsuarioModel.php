@@ -1,7 +1,7 @@
 <?php
 require_once 'Conexion.php';
 
-class RespuestaModel
+class UsuarioModel
 {
     /*static public function listar($tabla, $columna, $valor)
     {
