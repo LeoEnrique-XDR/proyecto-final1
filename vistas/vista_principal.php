@@ -1,6 +1,10 @@
 <?php
-    $rutas=['login', 'perfil', 'pregunta', 'preguntas', 'registro','respuesta'];
-
+session_start();
+    $rutas=['login', 'perfil', 'pregunta', 'preguntas', 'registro', 'respuesta', 'prueba'];
+    
+    //$ruta = explode('/', $_GET['ruta']);
+    //var_dump($ruta);
+    //$ruta=$ruta[0];
     $ruta = 'preguntas';
     if (isset($_GET['ruta'])) {
         $ruta = explode('/', $_GET['ruta']);
